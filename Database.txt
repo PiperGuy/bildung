@@ -1,0 +1,38 @@
+create table questions(id numeric(1) primary key,name varchar(100));
+create table opt1(id1 numeric(1) primary key,n1 varchar(100));
+create table opt2(id2 numeric(1) primary key,n2 varchar(100));
+create table opt3(id3 numeric(1) primary key,n3 varchar(100));
+
+insert into questions values(1,'How good are you in math ?');
+insert into questions values(2,'How good is your managerial skills ?');
+insert into questions values(3,'How good are you at presenting yourself ?');
+insert into questions values(4,'Do you like talking to new people ?');
+insert into questions values(5,'How do you like solving problem ?');
+insert into questions values(6,'Do you like to know how gadgets work ?');
+insert into questions values(7,'Where do you prefer to live ?');
+
+insert into opt1 values(1,"Very good");
+insert into opt1 values(2,'Expert');
+insert into opt1 values(3,'Fair');
+insert into opt1 values(4,'Very much');
+insert into opt1 values(5,'Very little');
+insert into opt1 values(6,'Very little');
+insert into opt1 values(7,'India');
+
+
+insert into opt2 values(1,'Good');
+insert into opt2 values(2,'Fairly good');
+insert into opt2 values(3,'Good');
+insert into opt2 values(4,'Little');
+insert into opt2 values(5,'Little');
+insert into opt2 values(6,'A lot');
+insert into opt2 values(7,'Abroad');
+
+
+insert into opt3 values(1,'Fair');
+insert into opt3 values(2,'Good');
+insert into opt3 values(3,'Expert');
+insert into opt3 values(4,'Expert');
+insert into opt3 values(5,'Very little');
+insert into opt3 values(6,'A lot');
+
